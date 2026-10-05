@@ -76,8 +76,7 @@ You must also request the runtime permissions before scanning or connecting.
 ## Usage
 
 ```java
-// TODO: replace with real BLECtrl usage
-// Create / obtain the controller instance
+// Create controller
 BluetoothController bluetoothController = new BluetoothController(bleCallback, checkPermissionCallBack);
 bluetoothController.setupBluetooth();
 
@@ -149,6 +148,9 @@ bluetoothController.scanDevices(context);
 
 // Get devices list
 ArrayList<BluetoothDevice> devices = bluetoothController.getDevices();
+
+// Get human-readable name of a device
+String name = bluetoothController.getDeviceName(bluetoothDevice);
 
 // Connect to a device
 bluetoothController.selectDevice(bluetoothDevice);
