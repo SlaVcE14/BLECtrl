@@ -1,5 +1,7 @@
 # BLECtrl (Bluetooth Low Energy Controller)
 
+<img src="https://slavce.sj14apps.com/img/projects/BLECtrl.png" width="300" />
+
 BLECtrl is an Android library that wraps the platform's Bluetooth Low Energy (BLE) APIs so you can scan for, connect to, and communicate with BLE devices without dealing with the low-level boilerplate yourself.
 
 [![](https://jitpack.io/v/SlaVcE14/BLECtrl.svg)](https://jitpack.io/#SlaVcE14/BLECtrl)
