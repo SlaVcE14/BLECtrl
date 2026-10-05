@@ -164,6 +164,8 @@ bluetoothController.sendData(string);
 // Disconnect
 bluetoothController.disconnect();
 ```
+## Example code
+[Console-like app for BLE communication](https://github.com/SlaVcE14/SJ-Libs-TestApp-Android/blob/main/app/src/main/java/com/sjapps/testapp/blectrl/BLECtrlActivity.java)
 
 ## Building from source
 
